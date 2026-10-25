@@ -52,3 +52,30 @@ Onde:
 ├── grafico_01_serie_temporal_passeio_aleatorio.png # Trajetória latente com faixas de credibilidade (50%, 80%, 95%)
 ├── grafico_02_densidade_posterior_dia_eleicao.png   # Curva marginal de probabilidade no dia da votação
 └── grafico_03_forest_plot_house_effects.png        # Forest plot com dispersão dos efeitos por instituto
+```
+---
+
+## 📊 Visualizações dos Resultados
+
+Os gráficos gerados em 300 DPI detalham a inferência:
+1. **Série Temporal do Passeio Aleatório:** Mostra a convergência das pesquisas sobrepostas à curva contínua da intenção latente até a véspera do pleito.
+2. **Densidade Posterior:** Demonstra a concentração da distribuição marginal acima do limiar de 50,0% de votos válidos.
+3. **Forest Plot de Efeitos de Casa:** Evidencia a dispersão mínima entre os institutos de pesquisa avaliados em 2026.
+---
+
+## ⚙️ Como Reproduzir
+
+### Pré-requisitos
+* Python 3.10+
+* Bibliotecas:
+```bash
+pip install pymc arviz numpy pandas matplotlib seaborn scipy
+```
+
+### Execução
+Execute os cadernos na ordem numérica sequencial (`01` ➔ `02` ➔ `03`).
+
+---
+
+## ⚖️ Nota de Isenção / Disclaimer
+Este projeto é um estudo acadêmico de inferência e modelagem bayesiana preditiva aplicada a sondagens eleitorais amostrais. Para dados oficiais de apuração, totalização e boletins de urna, consulte o [Tribunal Superior Eleitoral (TSE)](https://resultados.tse.jus.br/).

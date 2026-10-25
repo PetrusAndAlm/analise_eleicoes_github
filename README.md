@@ -78,4 +78,4 @@ Execute os cadernos na ordem numérica sequencial (`01` ➔ `02` ➔ `03`).
 ---
 
 ## ⚖️ Nota de Isenção / Disclaimer
-Este projeto é um estudo acadêmico de inferência e modelagem bayesiana preditiva aplicada a sondagens eleitorais amostrais. Para dados oficiais de apuração, totalização e boletins de urna, consulte o [Tribunal Superior Eleitoral (TSE)](https://resultados.tse.jus.br/).
+Este projeto é um estudo de inferência e modelagem bayesiana preditiva aplicada a sondagens eleitorais amostrais. Para dados oficiais de apuração, totalização e boletins de urna, consulte o [Tribunal Superior Eleitoral (TSE)](https://resultados.tse.jus.br/).
